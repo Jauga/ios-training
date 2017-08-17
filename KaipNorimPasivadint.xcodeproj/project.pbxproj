@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A50A82951F458260002DAD45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50A82941F458260002DAD45 /* AppDelegate.swift */; };
+		A50A82971F458260002DAD45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50A82961F458260002DAD45 /* ViewController.swift */; };
+		A50A829A1F458260002DAD45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50A82981F458260002DAD45 /* Main.storyboard */; };
+		A50A829C1F458260002DAD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50A829B1F458260002DAD45 /* Assets.xcassets */; };
+		A50A829F1F458260002DAD45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50A829D1F458260002DAD45 /* LaunchScreen.storyboard */; };
+		A50A82AA1F458261002DAD45 /* KaipNorimPasivadintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50A82A91F458261002DAD45 /* KaipNorimPasivadintTests.swift */; };
+		A50A82B51F458261002DAD45 /* KaipNorimPasivadintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50A82B41F458261002DAD45 /* KaipNorimPasivadintUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A50A82A61F458261002DAD45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50A82891F458260002DAD45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50A82901F458260002DAD45;
+			remoteInfo = KaipNorimPasivadint;
+		};
+		A50A82B11F458261002DAD45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50A82891F458260002DAD45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50A82901F458260002DAD45;
+			remoteInfo = KaipNorimPasivadint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A50A82911F458260002DAD45 /* KaipNorimPasivadint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaipNorimPasivadint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50A82941F458260002DAD45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A50A82961F458260002DAD45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A50A82991F458260002DAD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A50A829B1F458260002DAD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A50A829E1F458260002DAD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A50A82A01F458260002DAD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50A82A51F458261002DAD45 /* KaipNorimPasivadintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaipNorimPasivadintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50A82A91F458261002DAD45 /* KaipNorimPasivadintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaipNorimPasivadintTests.swift; sourceTree = "<group>"; };
+		A50A82AB1F458261002DAD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50A82B01F458261002DAD45 /* KaipNorimPasivadintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaipNorimPasivadintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50A82B41F458261002DAD45 /* KaipNorimPasivadintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaipNorimPasivadintUITests.swift; sourceTree = "<group>"; };
+		A50A82B61F458261002DAD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50A828E1F458260002DAD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50A82A21F458261002DAD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50A82AD1F458261002DAD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50A82881F458260002DAD45 = {
+			isa = PBXGroup;
+			children = (
+				A50A82931F458260002DAD45 /* KaipNorimPasivadint */,
+				A50A82A81F458261002DAD45 /* KaipNorimPasivadintTests */,
+				A50A82B31F458261002DAD45 /* KaipNorimPasivadintUITests */,
+				A50A82921F458260002DAD45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50A82921F458260002DAD45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A50A82911F458260002DAD45 /* KaipNorimPasivadint.app */,
+				A50A82A51F458261002DAD45 /* KaipNorimPasivadintTests.xctest */,
+				A50A82B01F458261002DAD45 /* KaipNorimPasivadintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50A82931F458260002DAD45 /* KaipNorimPasivadint */ = {
+			isa = PBXGroup;
+			children = (
+				A50A82941F458260002DAD45 /* AppDelegate.swift */,
+				A50A82961F458260002DAD45 /* ViewController.swift */,
+				A50A82981F458260002DAD45 /* Main.storyboard */,
+				A50A829B1F458260002DAD45 /* Assets.xcassets */,
+				A50A829D1F458260002DAD45 /* LaunchScreen.storyboard */,
+				A50A82A01F458260002DAD45 /* Info.plist */,
+			);
+			path = KaipNorimPasivadint;
+			sourceTree = "<group>";
+		};
+		A50A82A81F458261002DAD45 /* KaipNorimPasivadintTests */ = {
+			isa = PBXGroup;
+			children = (
+				A50A82A91F458261002DAD45 /* KaipNorimPasivadintTests.swift */,
+				A50A82AB1F458261002DAD45 /* Info.plist */,
+			);
+			path = KaipNorimPasivadintTests;
+			sourceTree = "<group>";
+		};
+		A50A82B31F458261002DAD45 /* KaipNorimPasivadintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A50A82B41F458261002DAD45 /* KaipNorimPasivadintUITests.swift */,
+				A50A82B61F458261002DAD45 /* Info.plist */,
+			);
+			path = KaipNorimPasivadintUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50A82901F458260002DAD45 /* KaipNorimPasivadint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50A82B91F458261002DAD45 /* Build configuration list for PBXNativeTarget "KaipNorimPasivadint" */;
+			buildPhases = (
+				A50A828D1F458260002DAD45 /* Sources */,
+				A50A828E1F458260002DAD45 /* Frameworks */,
+				A50A828F1F458260002DAD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaipNorimPasivadint;
+			productName = KaipNorimPasivadint;
+			productReference = A50A82911F458260002DAD45 /* KaipNorimPasivadint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50A82A41F458261002DAD45 /* KaipNorimPasivadintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50A82BC1F458261002DAD45 /* Build configuration list for PBXNativeTarget "KaipNorimPasivadintTests" */;
+			buildPhases = (
+				A50A82A11F458261002DAD45 /* Sources */,
+				A50A82A21F458261002DAD45 /* Frameworks */,
+				A50A82A31F458261002DAD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50A82A71F458261002DAD45 /* PBXTargetDependency */,
+			);
+			name = KaipNorimPasivadintTests;
+			productName = KaipNorimPasivadintTests;
+			productReference = A50A82A51F458261002DAD45 /* KaipNorimPasivadintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A50A82AF1F458261002DAD45 /* KaipNorimPasivadintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50A82BF1F458261002DAD45 /* Build configuration list for PBXNativeTarget "KaipNorimPasivadintUITests" */;
+			buildPhases = (
+				A50A82AC1F458261002DAD45 /* Sources */,
+				A50A82AD1F458261002DAD45 /* Frameworks */,
+				A50A82AE1F458261002DAD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50A82B21F458261002DAD45 /* PBXTargetDependency */,
+			);
+			name = KaipNorimPasivadintUITests;
+			productName = KaipNorimPasivadintUITests;
+			productReference = A50A82B01F458261002DAD45 /* KaipNorimPasivadintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50A82891F458260002DAD45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Manvydas;
+				TargetAttributes = {
+					A50A82901F458260002DAD45 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A50A82A41F458261002DAD45 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A50A82901F458260002DAD45;
+					};
+					A50A82AF1F458261002DAD45 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A50A82901F458260002DAD45;
+					};
+				};
+			};
+			buildConfigurationList = A50A828C1F458260002DAD45 /* Build configuration list for PBXProject "KaipNorimPasivadint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50A82881F458260002DAD45;
+			productRefGroup = A50A82921F458260002DAD45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50A82901F458260002DAD45 /* KaipNorimPasivadint */,
+				A50A82A41F458261002DAD45 /* KaipNorimPasivadintTests */,
+				A50A82AF1F458261002DAD45 /* KaipNorimPasivadintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50A828F1F458260002DAD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50A829F1F458260002DAD45 /* LaunchScreen.storyboard in Resources */,
+				A50A829C1F458260002DAD45 /* Assets.xcassets in Resources */,
+				A50A829A1F458260002DAD45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50A82A31F458261002DAD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50A82AE1F458261002DAD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50A828D1F458260002DAD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50A82971F458260002DAD45 /* ViewController.swift in Sources */,
+				A50A82951F458260002DAD45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50A82A11F458261002DAD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50A82AA1F458261002DAD45 /* KaipNorimPasivadintTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50A82AC1F458261002DAD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50A82B51F458261002DAD45 /* KaipNorimPasivadintUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A50A82A71F458261002DAD45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50A82901F458260002DAD45 /* KaipNorimPasivadint */;
+			targetProxy = A50A82A61F458261002DAD45 /* PBXContainerItemProxy */;
+		};
+		A50A82B21F458261002DAD45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50A82901F458260002DAD45 /* KaipNorimPasivadint */;
+			targetProxy = A50A82B11F458261002DAD45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A50A82981F458260002DAD45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50A82991F458260002DAD45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A50A829D1F458260002DAD45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50A829E1F458260002DAD45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A50A82B71F458261002DAD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A50A82B81F458261002DAD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A50A82BA1F458261002DAD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KaipNorimPasivadint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manvydas.KaipNorimPasivadint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A50A82BB1F458261002DAD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KaipNorimPasivadint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manvydas.KaipNorimPasivadint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A50A82BD1F458261002DAD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaipNorimPasivadintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manvydas.KaipNorimPasivadintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaipNorimPasivadint.app/KaipNorimPasivadint";
+			};
+			name = Debug;
+		};
+		A50A82BE1F458261002DAD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaipNorimPasivadintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manvydas.KaipNorimPasivadintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaipNorimPasivadint.app/KaipNorimPasivadint";
+			};
+			name = Release;
+		};
+		A50A82C01F458261002DAD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KaipNorimPasivadintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manvydas.KaipNorimPasivadintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KaipNorimPasivadint;
+			};
+			name = Debug;
+		};
+		A50A82C11F458261002DAD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KaipNorimPasivadintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manvydas.KaipNorimPasivadintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KaipNorimPasivadint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50A828C1F458260002DAD45 /* Build configuration list for PBXProject "KaipNorimPasivadint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50A82B71F458261002DAD45 /* Debug */,
+				A50A82B81F458261002DAD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50A82B91F458261002DAD45 /* Build configuration list for PBXNativeTarget "KaipNorimPasivadint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50A82BA1F458261002DAD45 /* Debug */,
+				A50A82BB1F458261002DAD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A50A82BC1F458261002DAD45 /* Build configuration list for PBXNativeTarget "KaipNorimPasivadintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50A82BD1F458261002DAD45 /* Debug */,
+				A50A82BE1F458261002DAD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A50A82BF1F458261002DAD45 /* Build configuration list for PBXNativeTarget "KaipNorimPasivadintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50A82C01F458261002DAD45 /* Debug */,
+				A50A82C11F458261002DAD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50A82891F458260002DAD45 /* Project object */;
+}
