@@ -1,89 +1,110 @@
 
 import UIKit
 
-class ViewController: UIViewController, CalculatorDataModelDelegate {
+class CalculatorViewController: UIViewController, CalculatorDataModelDelegate {
     // MARK: Variables
     private var dataModel: CalculatorDataModel!
     
     // MARK: Outlets
     @IBOutlet weak var TextView: UILabel!
     
+    
+    // MARK: Functions
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         dataModel = CalculatorDataModel(withDelegate: self)
     }
     
     func updateScreen(number: String) {
+        
         TextView.text = number
     }
     
-    // MARK: Button Actions
-    @IBAction func ButtonZeroAction(_ sender: Any) {
+
+    @IBAction func buttonZeroAction(_ sender: Any) {
+        
         dataModel.updateCurrentNumber(number: "0")
     }
     
-    @IBAction func ButtonOneAction(_ sender: Any) {
+    @IBAction func buttonOneAction(_ sender: Any) {
+        
         dataModel.updateCurrentNumber(number: "1")
     }
     
-    @IBAction func ButtonTwoAction(_ sender: Any) {
+    @IBAction func buttonTwoAction(_ sender: Any) {
+        
         dataModel.updateCurrentNumber(number: "2")
     }
     
-    @IBAction func ButtonThreeAction(_ sender: Any) {
+    @IBAction func buttonThreeAction(_ sender: Any) {
+        
         dataModel.updateCurrentNumber(number: "3")
     }
     
-    @IBAction func ButtonFourAction(_ sender: Any) {
+    @IBAction func buttonFourAction(_ sender: Any) {
+        
         dataModel.updateCurrentNumber(number: "4")
     }
     
-    @IBAction func ButtonFiveAction(_ sender: Any) {
+    @IBAction func buttonFiveAction(_ sender: Any) {
+        
         dataModel.updateCurrentNumber(number: "5")
     }
     
-    @IBAction func ButtonSixAction(_ sender: Any) {
+    @IBAction func buttonSixAction(_ sender: Any) {
+        
         dataModel.updateCurrentNumber(number: "6")
     }
     
-    @IBAction func ButtonSevenAction(_ sender: Any) {
+    @IBAction func buttonSevenAction(_ sender: Any) {
+        
         dataModel.updateCurrentNumber(number: "7")
     }
     
-    @IBAction func ButtonEightAction(_ sender: Any) {
+    @IBAction func buttonEightAction(_ sender: Any) {
+        
         dataModel.updateCurrentNumber(number: "8")
     }
     
-    @IBAction func ButtonNineAction(_ sender: Any) {
+    @IBAction func buttonNineAction(_ sender: Any) {
+        
         dataModel.updateCurrentNumber(number: "9")
     }
     
-    @IBAction func ButtonDecimalAction(_ sender: Any) {
+    @IBAction func buttonDecimalAction(_ sender: Any) {
+        
         dataModel.handleDecimal()
     }
     
-    @IBAction func ButtonMultiplyAction(_ sender: Any) {
+    @IBAction func buttonMultiplyAction(_ sender: Any) {
+        
         dataModel.buttonAction(action: "*")
     }
     
-    @IBAction func ButtonDivideAction(_ sender: Any) {
+    @IBAction func buttonDivideAction(_ sender: Any) {
+        
         dataModel.buttonAction(action: "/")
     }
     
-    @IBAction func ButtonAddAction(_ sender: Any) {
+    @IBAction func buttonAddAction(_ sender: Any) {
+        
         dataModel.buttonAction(action: "+")
     }
     
-    @IBAction func ButtonSubtractAction(_ sender: Any) {
+    @IBAction func buttonSubtractAction(_ sender: Any) {
+        
         dataModel.buttonAction(action: "-")
     }
     
-    @IBAction func ButtonResetAction(_ sender: Any) {
+    @IBAction func buttonResetAction(_ sender: Any) {
+        
         dataModel.resetAction()
     }
     
-    @IBAction func ButtonEqualsAction(_ sender: Any) {
+    @IBAction func buttonEqualsAction(_ sender: Any) {
+        
         dataModel.equalsAction()
     }
 }

@@ -13,7 +13,7 @@
 		A50A82AA1F458261002DAD45 /* KaipNorimPasivadintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50A82A91F458261002DAD45 /* KaipNorimPasivadintTests.swift */; };
 		A50A82B51F458261002DAD45 /* KaipNorimPasivadintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50A82B41F458261002DAD45 /* KaipNorimPasivadintUITests.swift */; };
 		A50A82C41F4582D1002DAD45 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50A82C21F4582D1002DAD45 /* CalculatorViewController.swift */; };
-		A50A82C51F4582D1002DAD45 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50A82C31F4582D1002DAD45 /* ViewController.xib */; };
+		A50A82C51F4582D1002DAD45 /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50A82C31F4582D1002DAD45 /* CalculatorViewController.xib */; };
 		A5F810F41F4C635000AC5AA9 /* CalculatorDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F810F31F4C635000AC5AA9 /* CalculatorDataModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +47,7 @@
 		A50A82B41F458261002DAD45 /* KaipNorimPasivadintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaipNorimPasivadintUITests.swift; sourceTree = "<group>"; };
 		A50A82B61F458261002DAD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A50A82C21F4582D1002DAD45 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
-		A50A82C31F4582D1002DAD45 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		A50A82C31F4582D1002DAD45 /* CalculatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatorViewController.xib; sourceTree = "<group>"; };
 		A5F810F31F4C635000AC5AA9 /* CalculatorDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +104,7 @@
 				A50A829D1F458260002DAD45 /* LaunchScreen.storyboard */,
 				A50A82A01F458260002DAD45 /* Info.plist */,
 				A50A82C21F4582D1002DAD45 /* CalculatorViewController.swift */,
-				A50A82C31F4582D1002DAD45 /* ViewController.xib */,
+				A50A82C31F4582D1002DAD45 /* CalculatorViewController.xib */,
 				A5F810F31F4C635000AC5AA9 /* CalculatorDataModel.swift */,
 			);
 			path = KaipNorimPasivadint;
@@ -237,7 +237,7 @@
 			files = (
 				A50A829F1F458260002DAD45 /* LaunchScreen.storyboard in Resources */,
 				A50A829C1F458260002DAD45 /* Assets.xcassets in Resources */,
-				A50A82C51F4582D1002DAD45 /* ViewController.xib in Resources */,
+				A50A82C51F4582D1002DAD45 /* CalculatorViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
